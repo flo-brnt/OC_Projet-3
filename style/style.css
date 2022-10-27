@@ -68,6 +68,9 @@ i {
   height: 70px;
   box-shadow: 0px 2px 4px lightgrey;
 }
+.logo__footer {
+  margin: 10px 0px 10px 0px;
+}
 
 .location {
   display: flex;
