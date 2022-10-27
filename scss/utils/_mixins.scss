@@ -1,0 +1,12 @@
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin icons {
+    i {
+        margin: 10px;
+    }
+    
+}

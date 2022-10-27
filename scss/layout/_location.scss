@@ -1,0 +1,6 @@
+.location {
+    @include flexcenter;
+    height: 40px;
+    background-color: $grey2;
+    color: $grey4;
+}

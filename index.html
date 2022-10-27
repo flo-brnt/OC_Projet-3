@@ -3,10 +3,108 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style/style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <title>OhMyFood</title>
     </head>
 
-    <body></body>
+    <body>
+        <header class="logo">
+			<a href="./index.html">
+				<h1 class="logo logo__header">ohmyfood</h1>
+			</a>
+        </header>
+
+        <main>
+			<div class="loading">
+				
+			</div>
+			<a href="#" class="location">
+				<div class="location__icon">
+					<i class="fa-solid fa-location-dot"></i>
+				</div>
+				<div class="location__city">
+					<p>Paris, Belleville</p>
+				</div>
+			</a>
+
+			<section class="intro">
+				<div class="intro__concept">
+					<p>Réservez le menu qui vous convient</p>
+					<p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+					<a href="#resto">Explorez nos restaurants</a>
+				</div>
+
+				<div class="intro__guidelines">
+					<h2>Fonctionnement</h2>
+					<div class="intro__guidelines__list">
+						<ol>
+							<li><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</li>
+							<li><i class="fa-solid fa-list-ul"></i>Composez votre menu</li>
+							<li><i class="fa-solid fa-store"></i>Dégustez au restaurant</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+
+			<section class="restaurant">
+				<a href="./pages/menu1.html" class="tile">
+					<div class="tile__new">
+						Nouveau
+					</div>
+					<div class="tile__img">
+						<img src="img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jp">
+					</div>
+					<div class="tile__title">
+						La palette du goût
+					</div>
+					<div class="tile__location">
+						Ménilmontant
+					</div>
+					<div class="like">
+						<div class="like__heart1">
+							<i class="fa-regular fa-heart"></i>
+						</div>
+						<div class="like__heart2">
+							<i class="fa-regular fa-heart"></i>
+						</div>
+					</div>
+				</a>
+			</section>
+
+			<footer>
+				<h3 class="logo logo__footer">ohmyfood</h3>
+				<nav class="footer">
+					<ul class="footer__list">
+						<li>
+							<a href="#" class="footer__list__item">
+								<div class="footer__list__item__logo">
+									<i class="fa-solid fa-utensils"></i>
+								</div>
+								Proposer un restaurant
+							</a>
+						</li>
+						<li>
+							<a href="#" class="footer__list__item">
+								<div class="footer__list__item__logo">
+									<i class="fa-solid fa-handshake-angle"></i>
+								</div>
+								Devenir partenaire
+							</a>
+						</li>
+						<li>
+							<a href="#" class="footer__list__item">
+								Mentions légales
+							</a>
+						</li>
+						<li>
+							<a href="mailto:emailexample@ohmyfood.com" class="footer__list__item">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</footer>
+		</main>
+    </body>
 </html>
