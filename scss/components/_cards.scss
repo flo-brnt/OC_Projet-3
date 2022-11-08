@@ -1,0 +1,58 @@
+.restaurant {
+    @include flexcenter
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 230px;
+    box-shadow: 0px 2px 4px lightgrey;
+    border-radius: 10px;
+
+    &__new {
+        display: none;
+    }
+
+    &__img {
+        img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    }
+    
+    &__text {
+        display: flex;
+        justify-content: space-between;
+
+        &__position {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        font-weight: bold;
+        margin: 10px 0px 0px 10px;
+    }
+
+    &__location {
+        margin-left: 10px;
+        font-weight: 200;
+    }
+
+    &__like {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        z-index: 2;
+        &__heart1 {
+            font-size: 20px;
+            color: grey;
+
+            &:hover {
+                color: pink;
+            }
+        }
+    }
+}

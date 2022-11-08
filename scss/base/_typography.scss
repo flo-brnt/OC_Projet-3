@@ -19,6 +19,7 @@ a {
 
     &__footer {
         font-size: 1.25rem;
+        color: white;
     }
 }
 
@@ -26,9 +27,9 @@ main {
     font-family: $main-font-family;
 }
 
-i {
+/*i {
     margin: 10px;
-}
+}*/
 
 h2, h3 {
     font-weight: bold;

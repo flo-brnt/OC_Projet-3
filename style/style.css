@@ -39,16 +39,16 @@ a {
 }
 .logo__footer {
   font-size: 1.25rem;
+  color: white;
 }
 
 main {
   font-family: "Roboto", sans-serif;
 }
 
-i {
-  margin: 10px;
-}
-
+/*i {
+    margin: 10px;
+}*/
 h2, h3 {
   font-weight: bold;
   font-size: 1.25rem;
@@ -69,7 +69,6 @@ h2, h3 {
   transform: translate(-50%, -50%);
   width: 25px;
   height: 25px;
-  /*z-index: 2;*/
 }
 .logo__header {
   display: flex;
@@ -79,9 +78,6 @@ h2, h3 {
   height: 70px;
   box-shadow: 0px 2px 4px lightgrey;
 }
-.logo__footer {
-  margin: 10px 0px 10px 0px;
-}
 
 .location {
   display: flex;
@@ -90,6 +86,9 @@ h2, h3 {
   height: 50px;
   background-color: #e5e5e5;
   color: #404040;
+}
+.location i {
+  margin-right: 5px;
 }
 
 .intro {
@@ -141,6 +140,32 @@ h2, h3 {
 
 .fa-store, .fa-mobile-screen-button, .fa-list-ul {
   color: #737373;
+  margin: 10px;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer a {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer__list__item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.footer__list__item i {
+  margin-right: 5px;
 }
 
 .btn {
@@ -150,6 +175,57 @@ h2, h3 {
   border-radius: 2rem;
   background: linear-gradient(170deg, #FF79DA 0%, #9356DC 100%);
   color: #FFF;
+}
+
+.restaurant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 230px;
+  box-shadow: 0px 2px 4px lightgrey;
+  border-radius: 10px;
+}
+.tile__new {
+  display: none;
+}
+.tile__img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.tile__text {
+  display: flex;
+  justify-content: space-between;
+}
+.tile__text__position {
+  display: flex;
+  flex-direction: column;
+}
+.tile__title {
+  font-weight: bold;
+  margin: 10px 0px 0px 10px;
+}
+.tile__location {
+  margin-left: 10px;
+  font-weight: 200;
+}
+.tile__like {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  z-index: 2;
+}
+.tile__like__heart1 {
+  font-size: 20px;
+  color: grey;
+}
+.tile__like__heart1:hover {
+  color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */
