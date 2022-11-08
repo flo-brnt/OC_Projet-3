@@ -1,3 +1,4 @@
+/*$hover-primary-icon: ligthen($color-primary, 20%);*/
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
 html {
@@ -48,6 +49,16 @@ i {
   margin: 10px;
 }
 
+h2, h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.paragraph {
+  font-weight: 200;
+  text-align-last: center;
+}
+
 .logo {
   position: relative;
 }
@@ -76,9 +87,69 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 50px;
   background-color: #e5e5e5;
   color: #404040;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.intro__concept {
+  width: 100%;
+  height: 250px;
+  padding: 25px 0px 25px 0px;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align-last: center;
+  justify-content: space-between;
+}
+.intro__guidelines__list {
+  background-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 4px lightgrey;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+.intro__guidelines__list:hover {
+  background-color: #f2eafb;
+}
+.intro__guidelines__list:hover i {
+  color: #9356DC;
+}
+.intro__guidelines__list__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9356DC;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  margin-left: -25px;
+}
+
+.fa-store, .fa-mobile-screen-button, .fa-list-ul {
+  color: #737373;
+}
+
+.btn {
+  padding: 15px;
+  margin: 15px;
+  border: transparent;
+  border-radius: 2rem;
+  background: linear-gradient(170deg, #FF79DA 0%, #9356DC 100%);
+  color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
