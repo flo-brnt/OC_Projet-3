@@ -14,12 +14,15 @@
     }
 
     &__guidelines {
+        margin-top: 35px;
+
         &__list {
             background-color: $grey;
             display: flex;
             align-items: center;
             @include guideline-card;
             font-size: .8rem;
+            padding-right: 50px;
 
             &:hover {
                 background-color: $hover-primary;
@@ -45,4 +48,5 @@
 
 .fa-store, .fa-mobile-screen-button, .fa-list-ul {
     color: $grey6;
+    margin: 10px;
 }

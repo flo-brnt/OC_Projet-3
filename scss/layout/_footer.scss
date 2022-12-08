@@ -1,0 +1,28 @@
+footer {
+    background-color: $grey5;
+    color: white;
+    padding: 15px;
+}
+
+footer a {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    &__list {
+        &__item {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+

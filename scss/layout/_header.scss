@@ -8,7 +8,6 @@
         transform: translate(-50%,-50%);
         width: 25px;
         height: 25px;
-        /*z-index: 2;*/  
     }
 
     &__header {
@@ -16,9 +15,5 @@
         position: relative;
         height: 70px;
         box-shadow: 0px 2px 4px lightgrey;
-    }
-
-    &__footer {
-        margin: 10px 0px 10px 0px;
     }
 }
