@@ -1,0 +1,26 @@
+.restaurant {
+    background-color: $grey;
+    height: 100%;
+    /*min-height: 350px;
+    height: 350px;*/
+    overflow: hidden;
+}
+
+.restaurant h2 {
+    padding: 30px;
+}
+
+.container {
+    @include flexcenter;
+    flex-direction: column;
+
+    .tile__new {
+        display: none;
+    }
+}
+
+/*.container[value="1"] a:nth-child(-n+1) {
+        display: contents;
+    }*/
+
+
