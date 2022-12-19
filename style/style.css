@@ -370,4 +370,86 @@ footer a {
   color: pink;
 }
 
+.img {
+  display: block;
+  object-fit: fill;
+}
+
+.carte {
+  display: block;
+  width: 100%;
+  transform: translateY(-2.5rem);
+  border-radius: 2rem 2rem 0 0;
+  background-color: #F2F2F2;
+}
+.carte__title {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 2rem;
+  padding: 30px 15px 0 15px;
+  margin-bottom: 15px;
+}
+.carte__title h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.like {
+  position: relative;
+}
+.like__heart1 {
+  position: absolute;
+  right: 0px;
+}
+
+.menu h3 {
+  margin-left: 10px;
+}
+.menu__title__underline {
+  display: block;
+  width: 40px;
+  border-top: 3px solid #99E2D0;
+  margin: 5px 0 20px 10px;
+}
+.menu__item {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px #e5e5e5;
+  padding: 15px;
+  margin: 10px;
+  /*&:hover {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }*/
+}
+.menu__item__dispo1 {
+  display: block;
+  width: 100%;
+}
+.menu__item__dispo2 {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__item__title {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.menu__item__info {
+  font-weight: 100;
+}
+.menu__item__price {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+.menu__item__validation {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
